@@ -1,0 +1,9 @@
+La ruta POST /registro permite recibir datos enviados por un usuario en formato JSON. Cuando se envía el nombre y el mensaje, el servidor procesa la información mediante req.body y responde con un objeto JSON confirmando que los datos fueron recibidos correctamente.
+
+Ejemplo de respuesta:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
